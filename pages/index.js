@@ -1,18 +1,19 @@
 import Head from "next/head";
+import Layout from "components/Layouts/Layout";
 
 export default function Home() {
 	return (
-		<div className="container">
+		<>
 			<Head>
 				<title>OctoFood</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<main>
+			<Layout>
 				<h1 className="title">
 					Welcome to <a href="https://nextjs.org">Next.js!</a>
 				</h1>
-			</main>
-		</div>
+			</Layout>
+		</>
 	);
 }

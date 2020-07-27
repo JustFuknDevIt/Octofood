@@ -13,9 +13,6 @@ export default createMuiTheme({
 		text: {
 			primary: GreenDark,
 		},
-		background: {
-			default: GreenLight,
-		},
 	},
 
 	// Fournit aussi la possibilitée de pré-deteriminer des styles sur les elements typographiques
